@@ -1,23 +1,41 @@
-body{font-family: sans-serif;}
-section{ background-color: #eee;}
-article { background-color: #fff;}
-footer{ border: solid 1px;}
-a{color: green;}
+body {
+  font-family: sans-serif;
+}
 
-footer, article, section{
+section {
+  background-color: #eee;
+}
+
+article {
+  background-color: #fff;
+}
+
+footer {
+  border: solid 1px;
+}
+
+a {
+  color: green;
+}
+
+footer, article, section {
   padding: 10px;
   border-radius: 16px;
 }
 
-nav{
+nav {
   margin: 10px;
-  > a{
-    margin: 10px;
-    color: gray;
-    text-decoration: none;
-  }
+}
+nav > a {
+  margin: 10px;
+  color: gray;
+  text-decoration: none;
 }
 
-div > p { color: red; }
+div > p {
+  color: red;
+}
 
-article + article{ margin-top:10px; }
+article + article {
+  margin-top: 10px;
+}
